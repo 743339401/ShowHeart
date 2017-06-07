@@ -46,7 +46,7 @@ onload = function () {
                     elem.style.top = y - 20 - increase + "px";
                     elem.style.opacity = (150 - increase) / 120;
                 }, 10);
-            }, 70);
+            }, 20);
             body.appendChild(elem);
         };
     };
